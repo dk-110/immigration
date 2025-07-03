@@ -1,0 +1,22 @@
+---
+title: "XX"
+author: "DK"
+format: html
+execute: 
+  echo: false
+---
+
+```{r}
+#| message: false
+library(tidyverse) 
+library(primer.data)
+library(tidymodels)
+library(broom)
+```
+$$
+Y_i = \beta_0 + \beta_1 X_{1i} + \beta_2 X_{2i} + \cdots + \beta_k X_{ki} + \varepsilon_i
+$$
+
+People hold differing attitudes toward immigration, and these attitudes may shift based on personal experiences or contextual exposure.
+Using data from a field experiment conducted by political scientist Ryan Enos involving Boston-area train commuters, we estimate the causal effect of being exposed to Spanish-speaking individuals on a train platform on changes in immigration attitudes.
+One potential weakness in our model is that it assumes the relationship between exposure to Spanish speakers and immigration attitudes has remained stable over time and across regions, even though social and political contexts may have shifted significantly since the original data was collected.
